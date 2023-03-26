@@ -1,15 +1,16 @@
 {
   "ExpandedNodes": [
     "",
+    "\\prisma",
     "\\src",
     "\\src\\components",
-    "\\src\\components\\Header",
-    "\\src\\components\\MainSection",
     "\\src\\components\\Post",
-    "\\src\\components\\SideSection",
+    "\\src\\components\\WriteFormModal",
     "\\src\\pages",
+    "\\src\\pages\\api",
+    "\\src\\pages\\user",
     "\\src\\styles"
   ],
-  "SelectedNode": "\\src\\components\\Header\\index.tsx",
+  "SelectedNode": "\\src\\components\\Post\\index.tsx",
   "PreviewInSolutionExplorer": false
 }
