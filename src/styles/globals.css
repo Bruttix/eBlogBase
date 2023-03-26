@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&family=Lobster+Two&family=Supermercado+One&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/*Header Styling*/
+.eBlogTitle {
+    background: linear-gradient(to right, #12113a, #1656bb, #12113a);
+    color: #e6a50b;
+    text-shadow: 0 -3px 0 #333, 0 6px 8px rgba(0,0,0,.4), 0 9px 10px rgba(0,0,0,.15), 0 30px 10px rgba(0,0,0,.18), 0 15px 10px rgba(0,0,0,.21);
+}
+.menuIcon{
+
+}
+.mainSectionBox {
+    background: linear-gradient(to right, #12113a, #1656bb, #12113a);
+    
+}
+.mainSortBox {
+    background-image: url('https://res.cloudinary.com/dqbkfteqj/image/upload/v1679622034/goldBubbles_gshdst.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: #e6a50b;
+}
+.asideBox {
+    background-image: url('https://res.cloudinary.com/dqbkfteqj/image/upload/v1679621358/tallGoldClouds_aebe7n.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #e6a50b;
+    height: 100vh;
+}
+.articleSearchBox {
+    background: #e6a50b;
+}
+.searchIcon{
+    color:#000;
+}
+.headerIconBtn:hover {
+    color: #fffb1a;
+}
+.topicTags {
+    background-color: rgba(70, 43, 255, 0.69);
+}
+.postAuthor {
+    background-color: rgba(70, 43, 255, 0.69);
+    padding: 5px 10px;
+    margin-top:5px;
+}
+.postContentBox {
+    background-color: rgba(70, 43, 255, 0.29);
+    padding: 15px 15px;
+}
+.headerBtns:hover {
+    color: rgb(70, 43, 255) !important;
+    border-color: rgb(70, 43, 255) !important;
+    background-color: #e6a50b;
+    font-weight:900;
+}
+.writeContainer > h3 {
+    color: #e6a50b !important;
+    font-family: "Germania One", cursive;
+    padding-left:15px;
+}
+.blogPostMain {
+    background: linear-gradient(to right, #12113a, #1656bb, #12113a);
+}
+.blogPostSub {
+    background: #dd9445f7;
+    padding: 10px 10px;
+    border-radius: 2%;
+    font-family: "Germania One", cursive;
+}
+.postSubHeader {
+    background: linear-gradient(to right, #12113abf, #1656bbc7, #12113acf);
+    color: #e6a50b;
+    box-shadow: #000 0px 10px 15px -5px;
+    padding: 5px 5px;
+    text-shadow: 0 -3px 0 #333, 0 6px 8px rgba(0,0,0,.4), 0 9px 10px rgba(0,0,0,.15), 0 30px 10px rgba(0,0,0,.18), 0 15px 10px rgba(0,0,0,.21);
+}
+.blogPostSubTitle {
+    box-shadow: #000 0px 10px 15px -5px;
+    background: linear-gradient(to right, #12113abf, #1656bbc7, #12113acf);
+    text-shadow: 0 -3px 0 #333, 0 6px 8px rgba(0,0,0,.4), 0 9px 10px rgba(0,0,0,.15), 0 30px 10px rgba(0,0,0,.18), 0 15px 10px rgba(0,0,0,.21);
+}
+.blogPostSummaryBox{
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+.blogPostSummary {
+    color: #000;
+    width: 100%;
+    display: contents;
+    font-weight: 500;
+}
+.bottomPostBtn {
+    background: linear-gradient(to right, #12113abf, #1656bbc7, #12113acf);
+    box-shadow: #000 0px 10px 15px -5px;
+}
+.heartIcon , .messageIcon {
+    width: 25px !important;
+    height: 25px;
+}
+.heartIcon path {
+    fill: rgb(221, 151, 17);
+}
+.messageIcon path {
+    fill: rgb(221, 151, 17);
+    width:30px;
+}
+.heartIcon:hover path {
+    fill: rgb(220 38 38);
+    transform: scale(0.9);
+}
+.messageIcon:hover path {
+    fill: rgb(220 38 38);
+    transform: scale(0.9);
+}
+.writeContainer {
+    background-image: linear-gradient(to right, #12113abf, #1656bbc7, #12113acf), url('https://res.cloudinary.com/dqbkfteqj/image/upload/v1679768810/quillBook_r8s1lj.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid #e6a50b;
+}
+.writeTitle {
+    background: #ffbc1fad !important;
+    border: 2px solid #e6a50b;
+    font-family: "Germania One", cursive;
+}
+.writeTitle:focus {
+    background-color: rgb(30 64 175) !important;
+    color: #e6a50b;
+    text-shadow: 0 -3px 0 #333, 0 6px 8px rgba(0,0,0,.4), 0 9px 10px rgba(0,0,0,.15), 0 30px 10px rgba(0,0,0,.18), 0 15px 10px rgba(0,0,0,.21);
+}
+.writeTitle::placeholder{
+    color: #000;
+}
+.invertButton:hover {
+    background-color: rgb(30 64 175) !important;
+    color: #e6a50b;
+    text-shadow: 0 -3px 0 #333, 0 6px 8px rgba(0,0,0,.4), 0 9px 10px rgba(0,0,0,.15), 0 30px 10px rgba(0,0,0,.18), 0 15px 10px rgba(0,0,0,.21);
+}
+.commentBox {
+    padding: 5px 5px;
+    background: #ffbc1fad !important;
+    border: 2px solid #e6a50b;
+    font-family: "Germania One", cursive;
+}
+.commentBox:hover{
+    background-color: rgb(30 64 175) !important;
+    color: #e6a50b;
+    text-shadow: 0 -3px 0 #333, 0 6px 8px rgba(0,0,0,.4), 0 9px 10px rgba(0,0,0,.15), 0 30px 10px rgba(0,0,0,.18), 0 15px 10px rgba(0,0,0,.21);
+} 
+.writeParagraph {
+    background: #ffbc1fad !important;
+    border: 1px solid #e6a50b !important;
+}
+.moreUsers {
+    background-color: rgba(70, 43, 255, 0.69);
+    padding: 5px 10px;
+}
+.dialogHeader {
+    font-family: "Germania One", cursive;
+    font-size: 1.5rem;
+    color: #e6a50b;
+    background-color: rgb(30 64 175) !important;
+    padding: 10px 10px;
+    text-align: center;
+    width: 100%;
+}
+.dialogCloseBtn{
+    font-size: 2rem;
+}
+.dialogCloseBtn:hover {
+    transform: scale(1.1);
+    color: red;
+}
+.dialogSidePanel {
+    background-color: #dd9445f7;
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.dialogSidePanelInner {
+    background-image: url('https://res.cloudinary.com/dqbkfteqj/image/upload/v1679782732/blueBubble_o74pi8.svg');
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+}
+.ql-snow .ql-stroke, .ql-formats {
+    stroke: #000 !important;
+}
+.ql-snow .ql-picker-options {
+    background-color: #ffbc1fe5 !important;
+    border: 1px solid #0a04c8 !important;
+}
+.ql-snow .ql-picker-label{
+    font-weight: 700 !important;
+}
+.ql-snow .ql-picker{
+    color: #000;
+}
+.ql-toolbar.ql-snow , .ql-editor {
+    border: 1px solid #0a04c8 !important;
+}
+.ql-container {
+    font-family: "Germania One", cursive !important;
+    font-size: 20px !important;
+}
+/*Header Styling END*/
+/*profile styling start*/
+.userProfilePage {
+    background: linear-gradient(to right, #12113a, #1656bb, #12113a);
+    color: #e6a50b;
+    font-family: "Germania One", cursive !important;
+}
+.profileBanner {
+    background: #dd9445f7;
+}
+.writeTitleTwo {
+    background: #ffbc1fad !important;
+    border: 2px solid #1656bb;
+    font-family: "Germania One", cursive;
+    color: #1656bb;
+}
+/*profile styling end*/
