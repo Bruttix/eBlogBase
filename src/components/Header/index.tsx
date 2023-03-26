@@ -21,7 +21,7 @@ const Header = () => {
         href={"/"}
         className="  cursor-pointer select-none text-4xl font-bold"
       >
-        Brandon's eBlogger
+        Brandon and Friends eBlogger
       </Link>
       {status === "authenticated" ? (
         <div className="flex items-center space-x-4">
