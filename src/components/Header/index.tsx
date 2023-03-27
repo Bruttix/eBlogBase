@@ -16,7 +16,7 @@ const Header = () => {
     <header className="eBlogTitle font-supermercado flex h-20 w-full flex-row items-center justify-around border-b-[1px] border-yellow-600 bg-yellow-700">
       <div className="headerLeft">
           <div className="headerLogoBox">
-             <a href="/"> <img src="https://res.cloudinary.com/dqbkfteqj/image/upload/v1679865195/BGoldLogoAbstract_clear_cehnai.png" alt="Suga" /></a>
+             <img src="https://res.cloudinary.com/dqbkfteqj/image/upload/v1679865195/BGoldLogoAbstract_clear_cehnai.png" alt="Suga" />
           </div>
         <IoReorderThreeOutline className="menuIcon text-2xl" />
       </div>

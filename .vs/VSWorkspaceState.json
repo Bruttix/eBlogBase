@@ -1,15 +1,17 @@
 {
   "ExpandedNodes": [
     "",
-    "\\prisma",
+    "\\public",
     "\\src",
     "\\src\\components",
-    "\\src\\components\\WriteFormModal",
+    "\\src\\components\\Header",
+    "\\src\\layouts",
+    "\\src\\layouts\\FooterLayout",
+    "\\src\\layouts\\MainLayout",
     "\\src\\pages",
-    "\\src\\pages\\api",
     "\\src\\pages\\api\\trpc",
-    "\\src\\pages\\user",
     "\\src\\styles"
   ],
+  "SelectedNode": "\\public",
   "PreviewInSolutionExplorer": false
 }
