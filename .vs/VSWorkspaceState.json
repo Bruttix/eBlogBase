@@ -1,9 +1,9 @@
 {
   "ExpandedNodes": [
     "",
+    "\\prisma",
     "\\src",
     "\\src\\components",
-    "\\src\\components\\Post",
     "\\src\\components\\WriteFormModal",
     "\\src\\pages",
     "\\src\\pages\\api",
@@ -11,6 +11,5 @@
     "\\src\\pages\\user",
     "\\src\\styles"
   ],
-  "SelectedNode": "\\.env",
   "PreviewInSolutionExplorer": false
 }

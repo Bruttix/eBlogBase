@@ -4,6 +4,7 @@ import SideSection from "../components/SideSection";
 
 import WriteFormModal from "../components/WriteFormModal";
 import MainLayout from "../layouts/MainLayout";
+import FooterLayout from "../layouts/FooterLayout";
 const HomePage = () => {
   return (
     <MainLayout>
@@ -12,6 +13,7 @@ const HomePage = () => {
         <SideSection />
       </section>
       <WriteFormModal />
+      <FooterLayout />
     </MainLayout>
   );
 };

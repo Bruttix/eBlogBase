@@ -3,7 +3,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+:root {
+    --gold-color: #e6a50b;
+}
 /*Header Styling*/
+.headerLeft{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.headerLogoBox{
+    height: 50px;
+    width: 50px;
+    display: inline;
+}
+.headerLogoBox:hover{
+    transform: scale(1.3);
+}
 .eBlogTitle {
     background: linear-gradient(to right, #12113a, #1656bb, #12113a);
     color: #e6a50b;
@@ -18,7 +34,7 @@
 }
 .mainSortBox {
     background-image: url('https://res.cloudinary.com/dqbkfteqj/image/upload/v1679622034/goldBubbles_gshdst.svg');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     color: #e6a50b;
 }
@@ -223,3 +239,75 @@
     color: #1656bb;
 }
 /*profile styling end*/
+/*Footer stylingstart*/
+.footerContainer {
+    font-family: "Germania One", cursive;
+}
+.footer {
+    background-image: url('https://res.cloudinary.com/dqbkfteqj/image/upload/v1679621358/tallGoldClouds_aebe7n.svg');
+    padding: 1rem 0;
+    font-size: 1.4rem;
+    color: var(--gold-color);
+}
+
+.footer__logo {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__navigation {
+    border-top: 1px solid var(--gold-color);
+    padding-top: 2rem;
+    display: inline-block;
+}
+
+.footer__list {
+    list-style: none;
+}
+
+.footer__item {
+    display: inline-block;
+}
+.footer__item:not(:last-child){
+    margin-right: 1.5rem;
+}
+
+.footer__link, .footer__link:link, .footer__link:visited {
+    color: #07096f;
+    background-color: var(--gold-color);
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: all .2s;
+}
+.footerRow, .footerCol {
+    max-width: 114rem;
+    margin: 0 auto;
+}
+.footerCol .col-1-of-2 {
+    width: calc((100% - 6rem) / 2);
+    float: left;
+}
+.footerRow::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.footer__link:hover,
+.footer__link:active {
+    color: #07096f;
+    box-shadow: 0 1rem 2rem rgba($color-black, .4);
+    transform: rotate(5deg) scale(1.3);
+}
+
+.footer__copyright {
+    border-top: 1px solid var(--gold-color);
+    padding-top: 2rem;
+    width: 50%;
+    float: right;
+    margin-top: -66px;
+}
+
+
+/*Footer styling end*/
